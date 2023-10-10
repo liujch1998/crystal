@@ -1,0 +1,8 @@
+/logs/
+/runs*/
+/eval/
+/data/uqa
+/model/
+**/wandb/
+**/__pycache__/
+*.swp

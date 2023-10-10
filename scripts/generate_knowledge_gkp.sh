@@ -1,0 +1,21 @@
+python generate_knowledge_gkp.py --engine davinci --task obqa --split train
+python generate_knowledge_gkp.py --engine davinci --task arc_e --split train
+python generate_knowledge_gkp.py --engine davinci --task arc_h --split train
+python generate_knowledge_gkp.py --engine davinci --task ai2sci_e --split train
+python generate_knowledge_gkp.py --engine davinci --task ai2sci_m --split train
+python generate_knowledge_gkp.py --engine davinci --task csqa --split train
+python generate_knowledge_gkp.py --engine davinci --task qasc --split train
+python generate_knowledge_gkp.py --engine davinci --task piqa --split train
+python generate_knowledge_gkp.py --engine davinci --task siqa --split train
+python generate_knowledge_gkp.py --engine davinci --task wg --split train
+ 
+python generate_knowledge_gkp.py --engine davinci --task obqa --split dev
+python generate_knowledge_gkp.py --engine davinci --task arc_e --split dev
+python generate_knowledge_gkp.py --engine davinci --task arc_h --split dev
+python generate_knowledge_gkp.py --engine davinci --task ai2sci_e --split dev
+python generate_knowledge_gkp.py --engine davinci --task ai2sci_m --split dev
+python generate_knowledge_gkp.py --engine davinci --task csqa --split dev
+python generate_knowledge_gkp.py --engine davinci --task qasc --split dev
+python generate_knowledge_gkp.py --engine davinci --task piqa --split dev
+python generate_knowledge_gkp.py --engine davinci --task siqa --split dev
+python generate_knowledge_gkp.py --engine davinci --task wg --split dev

@@ -1,0 +1,21 @@
+name: crystal
+channels:
+  - pytorch
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.12
+  - pip:
+    - torch==1.13.1
+    - transformers==4.23.1
+    - accelerate==0.16.0
+    - tokenizers==0.13.2
+    - huggingface_hub==0.11.1
+  - sentencepiece=0.1.96
+  - openai
+  - numpy
+  - tqdm
+  - tensorboard
+  - gdown
+  - wandb
